@@ -1,1 +1,1 @@
-powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr 'https://difsync.com/install/windows.ps1' -UseBasicParsing -OutFile '$env:TEMP\difsync-install.ps1'; & '$env:TEMP\difsync-install.ps1' -PairCode 'NDRBUPQY'"
+winget install OpenJS.NodeJS.LTS --accept-package-agreements --accept-source-agreements
